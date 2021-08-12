@@ -1,0 +1,26 @@
+{
+    "extends": "airbnb-base",
+    "parser": "babel-eslint",
+    "rules": {
+        "no-plusplus": "off",
+        "no-param-reassign": [
+            "error",
+            {
+                "props": false
+            }
+        ],
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "quote-props": "off",
+        "indent": "off",
+        "brace-style": "off",
+        "no-restricted-syntax": "off",
+        "no-await-in-loop": "off",
+        "no-continue": "off",
+        "class-methods-use-this": "off",
+        "max-len": "off",
+        "no-underscore-dangle": "off"
+    }
+}
